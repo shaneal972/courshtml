@@ -1,0 +1,73 @@
+CSS : Cascading Style Sheet 
+Feuille de style en cascade
+
+Lier une feuille de style avec une page html
+1. Créer la feuille de style (style.css)
+2. Utiliser la balise <link> sur la page html entre les balises head.
+
+Les sélecteurs
+- sélecteur universel : 
+* {
+    color: white;
+}
+
+- sélecteur de type d'élément : 
+p {
+    font-size: 15px;
+}
+
+h1 {
+    color: blue;
+}
+
+- sélecteurs descendants
+<p>
+    <em>texte</em>
+</p>
+
+p em {
+    font-style: normal;
+}
+
+<ul>
+    <li><a>accueil</a></li>
+</ul>
+
+ul li a {
+    color: red;
+}
+
+- sélecteurs de classes
+<p class="green petite" >tessjsgkqsgflkqshlk</p>
+
+.green {
+    color: green;
+}
+
+.petite {
+
+}
+
+- sélecteurs d'id (identifiant)
+<h1 id="titre1">hdfglkhlsdh</h1>
+#titre1 {
+    font-size: 2rem;
+}
+
+- sélecteurs de regroupement
+<h1>pohpotu</h1>
+<p>jdhpojdofj</p>
+
+h1, p {
+    margin: 0;
+} 
+
+- les pseudos-classes (:hover, :link, :visited, :active)
+<a>hlkhmjmlj</a>
+
+/* agit lorsque l'on passe la souris sur l'élément */
+a:hover {
+    color: orange;
+    font-family: Georgia;
+    font-size: 2rem;
+}

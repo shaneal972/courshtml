@@ -1,0 +1,86 @@
+/* sélecteurs de type d'élément */
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: lightsalmon;
+    font-size: 20px;
+}
+
+/* Sélecteur universel */
+* {
+    color: black;
+}
+
+/* sélecteurs descendants */
+p em {
+    font-style: normal;
+    color: blueviolet;
+}
+
+h1 em{
+    color: crimson;
+}
+
+/* sélecteurs de classe */
+.green {
+    color: green;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* sélecteurs d'id */
+#titre1 {
+    font-size: 4rem; /* modifie la taille de la police */
+}
+
+/* sélecteurs de regroupement */
+th, td{
+    border: 1px solid black;
+    padding: 7px;
+}
+
+/* 
+    la pseudo-classe :hover
+    hfjmgsdjfbmljsdmflgjml
+    lhdsvmjqlwmvjqdsmljv
+*/
+a:hover {
+    color: red;
+    font-family: Georgia;
+    font-size: 2rem;
+}
+
+/* contact.html */
+#contact {
+    color: blue;
+}
+
+label {
+    font-weight: bold;
+
+}
+
+input[type="submit"] {
+    background-color: darkmagenta;
+    color: white;
+    height: 35px;
+    padding: 10px;
+    line-height: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: orange;
+}
+
